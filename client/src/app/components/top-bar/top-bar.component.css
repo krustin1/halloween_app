@@ -1,0 +1,37 @@
+
+.scary-font {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.center-header {
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.menu {
+    justify-content: right;
+    color: orange;
+}
+
+.orange {
+    color: orange;
+    opacity: 100% !important;
+}
+
+body {
+    width: 100%;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
